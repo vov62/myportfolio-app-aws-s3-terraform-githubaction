@@ -1,0 +1,103 @@
+#contact{
+    position: relative;
+}
+#contact h2{
+    margin-bottom: 50px;
+}
+#contact h2::before{
+    content: "";
+    position: absolute;
+    top:70px;
+    left: 50%;
+    width: 140px;
+    height: 2px;
+    background: var(--blue-sharp-color);
+    transform: translateX(-50%);
+}
+#contact h2::after{
+    content: "Get In Touch";
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    padding: 5px;
+    font-size: 14px;
+    background: #010101;
+    transform: translateX(-50%);
+}
+
+.container.contact-container{
+   margin-left: 10%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 20% 40%;
+    gap: 12%;
+}
+.contact-options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.contact-option{
+    background-color: #292929;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: .3s all ease-out;
+}
+.contact-option:hover{
+    background-color: transparent;
+    border-color: var(--lightGreen-awards-color);
+}
+.contact-option-icon{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.contact-option a{
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+input,
+textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border: 2px solid var(--blue-sharp-color);
+    resize: none;
+
+}
+.formBtn{
+    border: none;
+    padding: 15px;
+    background-color: var(--lightGreen-awards-color);
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 12px;
+}
+.Toastify__toast{
+    color: #000;
+}
+
+
+@media screen and (max-width:1024px) {
+
+    .container.contact-container{
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+
+    }
+} 
+  
+  
+  

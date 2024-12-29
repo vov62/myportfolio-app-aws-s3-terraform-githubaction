@@ -1,0 +1,38 @@
+footer{
+    margin-top: 7rem;
+    height: 40vh;
+    background-color: #22313f;
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.footer-socials{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.footer-socials a{
+    display: flex;
+    padding: 0.8rem;
+    border: 1px solid transparent;
+    background-color: var( --black-bg-color);
+}
+.footer-copyright p{
+    margin-bottom: 5rem;
+    color: #000;
+}
+.footer-copyright p{
+    font-size: 16px;
+}
+
+
+@media screen and (max-width:480px) {
+
+    footer{
+        margin-top: 18rem;
+        height: 28vh;
+
+    }
+}
+  

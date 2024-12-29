@@ -1,0 +1,72 @@
+.projects {
+    position: relative;
+    /* background-color: var(--black-bg-color); */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.projects h2::before {
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    width: 180px;
+    height: 2px;
+    background: var(--blue-sharp-color);
+    transform: translateX(-50%);
+}
+
+.projects h2::after {
+    content: "My Recent Work";
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    padding: 5px;
+    font-size: 14px;
+    background: var(--black-bg-color);
+    transform: translateX(-50%);
+}
+
+.projects_allItems {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 30px;
+
+}
+
+@media only screen and (max-width:1024px) {
+    .projects_allItems {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .projects_allItems {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .projects_allItems {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    #projects h2 {
+        padding-top: 20px;
+    }
+
+    #projects h2::before {
+        top: 95px;
+    }
+
+    #projects h2::after {
+        top: 80px;
+    }
+
+}
