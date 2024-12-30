@@ -1,4 +1,5 @@
 name: Deploy to AWS s3
+
 on:
   push:
     branches:
@@ -18,10 +19,14 @@ jobs:
           node-version: ${{secrets.NODE_VERSION}}
 
       - name: Dependency installation
-        run: npm install
+        run: |
+          cd portfolio-app
+          npm install
 
       - name: Build React App
-        run: npm run build
+        run: |
+          cd portfolio-app
+          npm run build
 
       - name: Configure AWS Credentials
         uses: aws-action/configure-aws-credentials@v1
