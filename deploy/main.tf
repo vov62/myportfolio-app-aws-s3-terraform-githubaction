@@ -103,7 +103,7 @@ resource "aws_s3_object" "react_files" {
       "txt"  = "text/plain"
     },
     split(".", each.value)[length(split(".", each.value)) - 1],
-    "application/octet-stream" # Default Content-Type if not matched
+    "application/octet-stream"
   )
 
 }
