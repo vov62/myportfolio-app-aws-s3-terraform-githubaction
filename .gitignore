@@ -25,7 +25,8 @@ yarn-error.log*
 
 # Local .terraform directories
 **/.terraform/*
-
+.terraform/
+*.exe
 # .tfstate files
 *.tfstate
 *.tfstate.*
