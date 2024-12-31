@@ -9,7 +9,7 @@
 
 <h2>Technologies</h2>
 :white_medium_small_square: React: My portfolio website
-:white_medium_small_square: AWS S3 hosting
+:white_medium_small_square: AWS S3 
 :white_medium_small_square: Terraform
 :white_medium_small_square: GitHub Actions
 
@@ -26,7 +26,7 @@
 
 <h4>2. CI/CD Pipeline with GitHub Actions </h4>
 <p>Automatically build the React app on push to the main branch.</p>
-<p>Upload the build/ folder to the S3 bucket</p>
+<p>Upload the build/ folder to the S3 bucket and provide the URL for public access </p>
 
 <h2>Screenshots</h2>
 <h4>configure terraform to manage aws s3 bucket </h4>
@@ -35,9 +35,8 @@
 <h4>GitHub Actions automatically build the React app on push to the main branch </h4>
 <img width="600" alt="1" src="https://github.com/user-attachments/assets/8763e0ff-39c3-406d-bd4f-3aa197f639d3" />
 
-<h4>files uploaded to s3 bucket to hosting the app and provide the URL for public access </h4>
+<h4>files uploaded to s3 bucket and provide the URL for public access </h4>
 <img width="600" alt="2" src="https://github.com/user-attachments/assets/b8a8c5b4-1b21-41f6-aa4d-24b3b13784ad" />
 
 <h4>hosted application</h4>
 <img width="600" alt="5" src="https://github.com/user-attachments/assets/cc0303f7-86bf-45c5-ac20-fb9027614c82" />
-
