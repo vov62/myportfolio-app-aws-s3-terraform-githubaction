@@ -4,7 +4,6 @@ variable "bucket-name" {
 
 }
 
-
 data "aws_caller_identity" "current" {}
 
 # create s3 resource

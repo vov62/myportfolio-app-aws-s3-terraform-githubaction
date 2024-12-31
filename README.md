@@ -37,3 +37,5 @@
 
 <h4>files uploaded to s3 bucket to hosting the app and provide the URL for public access </h4>
 <img width="600" alt="2" src="https://github.com/user-attachments/assets/b8a8c5b4-1b21-41f6-aa4d-24b3b13784ad" />
+
+<h4>hosted application</h4>
