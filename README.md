@@ -29,6 +29,9 @@
 <p>Upload the build/ folder to the S3 bucket and provide the URL for public access </p>
 
 <h2>Screenshots</h2>
+
+<img src="https://github.com/user-attachments/assets/7bd210e1-cd67-45e5-b8ec-9cb8626a78fc" alt="mermaid info" width="400" height="auto">
+
 <h4>configure terraform to manage aws s3 bucket </h4>
 <img width="600" alt="4" src="https://github.com/user-attachments/assets/02456a66-3a1e-4570-8ec5-c55de3b2945c" />
 
