@@ -29,11 +29,11 @@
 <p>Upload the build/ folder to the S3 bucket</p>
 
 <h2>Screenshots</h2>
-<h3>configure terraform to manage aws s3 bucket </h3>
-<img width="600" alt="3" src="https://github.com/user-attachments/assets/a18fc58d-0b26-4dc3-8678-e770e87afe70" />
+<h4>configure terraform to manage aws s3 bucket </h4>
+<img width="600" alt="4" src="https://github.com/user-attachments/assets/02456a66-3a1e-4570-8ec5-c55de3b2945c" />
 
-<h3>GitHub Actions automatically build the React app on push to the main branch </h3>h3>
+<h4>GitHub Actions automatically build the React app on push to the main branch </h4>
 <img width="600" alt="1" src="https://github.com/user-attachments/assets/8763e0ff-39c3-406d-bd4f-3aa197f639d3" />
 
-<h3>files uploaded to s3 bucket to hosting the app and s3 provide the URL for public access </h3>
+<h4>files uploaded to s3 bucket to hosting the app and s3 provide the URL for public access </h4>
 <img width="600" alt="2" src="https://github.com/user-attachments/assets/b8a8c5b4-1b21-41f6-aa4d-24b3b13784ad" />
