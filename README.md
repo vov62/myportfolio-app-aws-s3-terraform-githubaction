@@ -16,7 +16,7 @@
 <h2>Features</h2>
 
 <p>&bull; Host a Static React app on S3 Bucket with public access.</p>
-<p>&bull; Use Terraform to manage AWS resources.</p>
+<p>&bull; Use Terraform toc resources.</p>
 <p>&bull; Create ci/cd pipeline to automate deployments with GitHub Actions.</p>
 
 <h2>How It Works</h2>
@@ -27,3 +27,10 @@
 <h4>2. CI/CD Pipeline with GitHub Actions </h4>
 <p>Automatically build the React app on push to the main branch.</p>
 <p>Upload the build/ folder to the S3 bucket</p>
+
+<h2>Screenshots</h2>
+<h3>configure terraform to manage aws s3 bucket <h3>
+
+<h3>GitHub Actions automatically build the React app on push to the main branch <h3>
+
+<h3>files uploaded to s3 bucket to hosting the app and s3 provide the URL for public access <h3>
